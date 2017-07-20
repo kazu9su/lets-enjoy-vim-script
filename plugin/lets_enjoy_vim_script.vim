@@ -8,7 +8,7 @@ set cpo&vim
 
 
 command! HelloWorld
-\    call lets_enjoy_vim_script#hello_world()
+\    echo lets_enjoy_vim_script#hello_world()
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
